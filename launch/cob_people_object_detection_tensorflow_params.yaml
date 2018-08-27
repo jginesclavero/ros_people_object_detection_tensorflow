@@ -8,7 +8,7 @@ num_of_classes: 90
 label_file: "mscoco_label_map.pbtxt"
 
 # Set your RGB image topic here, default is for openni2
-camera_namespace: "/camera/rgb/image_rect_color"
+camera_namespace: "/image_raw"
 
 # Set your depth image topic here, default is for openni2
 depth_namespace: "/camera/depth_registered/hw_registered/image_rect"
